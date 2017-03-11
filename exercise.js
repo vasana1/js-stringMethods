@@ -11,6 +11,7 @@ var longestPlaceName = "Taumatawhakatangihangakoauauotamateaturipukakapiki- maun
 var howManyLetters = longestPlaceName.length;
 console.log(howManyLetters);
 console.log("hello");
+console.log('dwjdgjw');
 
 
 /*Next, concatenate and console.log the following phrase:
