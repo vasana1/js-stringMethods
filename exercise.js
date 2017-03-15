@@ -81,7 +81,8 @@ console.log(bigBand);
 /*8. Declare a variable named `oreoList` that will convert the string below into an array of strings. Console.log your result.*/
 
 var oreos = "red velvet, cookie dough, peanut butter, banana split, birthday cake";
-
+var oreoList = oreos.split(" ");
+console.log(oreoList);
 
 
 /*The substr() method is similar to slice(). The difference is that the second parameter specifies the length of the extracted part. The 2 parameters: the starting index (position) and the length of the extracted part. */
@@ -89,7 +90,8 @@ var oreos = "red velvet, cookie dough, peanut butter, banana split, birthday cak
 /*9. Declare a variable named `favDrink` and extract "gin" from the string below. Console.log your result.*/
 
 var drinkMenu = "rum, gin, vodka, kool-aid, haterade";
-
+var favDrink = drinkMenu.substr(5, 3);
+console.log(favDrink);
 
 
 
